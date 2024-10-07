@@ -1,0 +1,31 @@
+name: flutter_application_10
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  audioplayers: ^6.1.0
+  flutter:
+    sdk: flutter
+
+  get:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Harmony
+      fonts:
+        - asset: assets/harmony_fonts/HarmonyOS_Sans_SC_Regular.ttf
+
+
+  assets:
+    - assets/images/
+    - assets/audio/
